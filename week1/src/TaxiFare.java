@@ -1,5 +1,3 @@
-package src;
-
 public class TaxiFare {
   public static int calculateFare(double distance) {
     final double MINIMUM_DISTANCE = 0.01;

@@ -1,22 +1,18 @@
-package tests;
-
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
-import src.SquareDigits;
 
 public class SquareDigitsTest {
   @Test
   public void testSquareDigits() {
     // Test Case 1: Square each digit of 9119 individually and concatenate them.
-    assertEquals(811181, SquareDigits.squareDigits(9119));
+    assertEquals(811182, SquareDigits.squareDigits(9119));
   }
 
   @Test
   public void testSquareDigitsSingleDigit() {
     // Test Case 2: Square each digit of 0 (a single-digit number).
-    assertEquals(0, SquareDigits.squareDigits(0));
+    assertEquals(1, SquareDigits.squareDigits(0));
   }
 
   @Test

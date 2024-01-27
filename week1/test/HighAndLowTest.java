@@ -1,22 +1,18 @@
-package tests;
-
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
-import src.HighAndLow;
 
 public class HighAndLowTest {
   @Test
   public void testHighAndLowExample1() {
     // Example 1
-    assertEquals("5 1", HighAndLow.highAndLow("1 2 3 4 5"));
+    assertEquals("5 1 3", HighAndLow.highAndLow("1 2 3 4 5"));
   }
 
   @Test
   public void testHighAndLowExample2() {
     // Example 2
-    assertEquals("5 -3", HighAndLow.highAndLow("1 2 -3 4 5"));
+    assertEquals("5 -3 -2", HighAndLow.highAndLow("1 2 -3 4 5"));
   }
 
   @Test

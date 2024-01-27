@@ -1,4 +1,3 @@
-package src;
 public class HighAndLow {
   public static String highAndLow(String numbers) {
     String[] numsArray = numbers.split(" ");

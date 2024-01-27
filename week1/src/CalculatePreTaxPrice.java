@@ -1,5 +1,3 @@
-package src;
-
 public class CalculatePreTaxPrice {
   public static double calculatePreTaxPrice(double salePrice) {
     double taxRate = 0.05;

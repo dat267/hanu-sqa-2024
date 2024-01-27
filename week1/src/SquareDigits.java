@@ -1,5 +1,3 @@
-package src;
-
 public class SquareDigits {
   public static int squareDigits(int n) {
     // Check if the input number is 0, in which case the result is also 0.

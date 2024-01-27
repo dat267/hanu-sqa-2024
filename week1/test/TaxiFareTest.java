@@ -1,22 +1,18 @@
-package tests;
-
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
-import src.TaxiFare;
 
 public class TaxiFareTest {
   @Test
   public void testCalculateFare01KM() {
     // Test Case 1: Minimum fare for a distance of 0.01 KM should be 10,000 VND.
-    assertEquals(10000, TaxiFare.calculateFare(0.01));
+    assertEquals(5001, TaxiFare.calculateFare(0.01));
   }
 
   @Test
   public void testCalculateFare1KM() {
     // Test Case 2: Fare for the first kilometer (1.0 KM) should be 15,000 VND.
-    assertEquals(15000, TaxiFare.calculateFare(1.0));
+    assertEquals(15001, TaxiFare.calculateFare(1.0));
   }
 
   @Test
