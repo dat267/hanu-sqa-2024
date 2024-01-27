@@ -15,6 +15,7 @@ Mark is an accountant, and he wants to build a program to calculate the pre-tax 
 ### Exercise 3
 
 Using TDD, write a program to calculate taxi fares from the distance (in KM) entered by the user. Following are the rules to calculate taxi fares:
+
 - The minimum fare is 10,000 VND.
 - The first kilometer costs 15,000 VND.
 - The next 9 kilometers (from 2nd to 10th) cost 12,000 VND each.
@@ -23,6 +24,7 @@ Using TDD, write a program to calculate taxi fares from the distance (in KM) ent
 ### Exercise 4
 
 You are given a string of space-separated numbers and have to return the highest and lowest number. Examples:
+
 - `highAndLow("1 2 3 4 5")` // return "5 1"
 - `highAndLow("1 2 -3 4 5")` // return "5 -3"
 - `highAndLow("1 9 3 4 -5")` // return "9 -5" Notes: There will always be at least one number in the input string. Output string must be two numbers separated by a single space, and the highest number is first.
